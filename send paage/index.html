@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../reset.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../favicon.svg" type="image/x-icon">
     <title>Document</title>
 </head>
 <body>
@@ -25,10 +26,10 @@
         </div>
         <div class="menu__main">
             <button class="main__btn">
-                <a class="btn__link" href="#">Мой аккаунт</a>
+                <a class="btn__link" href="http://127.0.0.1:5500/profile%20page/index.html">Мой аккаунт</a>
             </button>
             <button class="main__btn">
-                <a class="btn__link" href="#">Мои штрафы</a>
+                <a class="btn__link" href="http://127.0.0.1:5500/vaolation%20page/index.html">Мои штрафы</a>
             </button>
             <button class="main__btn">
                 <a class="btn__link" href="#">Поддержка</a>
@@ -42,11 +43,6 @@
         <div class="header__logo">
             <h2 class="logo__heading">Логотип</h2>
         </div>
-        <nav class="header__navigation">
-            <li class="navigation__item item-active">Главная</li>
-            <li class="navigation__item">Главная</li>
-            <li class="navigation__item">Главная</li>
-        </nav>
         <div class="header__buttons">
             <svg class="buttons__search" class="" viewBox="0 0 40 40">
                 <use href="sprite.svg#search" x="0" y="0"></use>
@@ -74,10 +70,10 @@
                     <p class="item__hint">Выберите тип нарушения</p>
                     <select class="item__select" name="" id="">
                         <option value="" disabled></option>
-                        <option value="">Проезд автомобиля на красный сигнал светофора</option>
-                        <option value="">Переход пешеходом дороги на красный синал светофора</option>
-                        <option value="">Водитель не пропустил пешехода</option>
-                        <option value="">Выезд за стоп линию</option>
+                        <option value="1">Проезд автомобиля на красный сигнал светофора</option>
+                        <option value="2">Переход пешеходом дороги на красный синал светофора</option>
+                        <option value="3">Водитель не пропустил пешехода</option>
+                        <option value="4">Выезд за стоп линию</option>
                     </select>
                 </div>
                 <div class="container__item">
@@ -90,15 +86,14 @@
         <div class="main__right">
             <div class="right__container">
                 <div class="right__top">
-                    <input class="container__input" id="file" accept="image/png, image/gif, image/jpeg"  type="file"/>
+                    <input class="container__input" id="file" accept="image/png, image/gif, image/jpeg, video/mp4"  type="file"/>
                     <label id="dropContainer" class="container__label" for="file">Прикрепить фото</label>
                     
                 </div>
                 <div class="right__bottom">
-                    <img class="container__img none"/>
                 </div>
             </div>
-            <button class="right__btn">Отправить</button>
+            <button class="right__btn">Отправит</button>
 
 
 
