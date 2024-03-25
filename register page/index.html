@@ -20,23 +20,39 @@
             <path d="M74.3194 83.0061C74.3194 72.345 62.6519 63.7024 48.2593 63.7024C33.8667 63.7024 22.1992 72.345 22.1992 83.0061" stroke="#1343EA" stroke-width="4"/>
             <path d="M82.0574 3.98224V10.216H80.7394V5.23325H80.7029L79.2754 6.12814V4.95931L80.8186 3.98224H82.0574Z" fill="white"/>
         </svg>
-        <p class="main__description">Регистрация</p>
-       <form action="">
+        <p class="main__description">Войти/ <span class="description__active">Зарегистрироваться</span></p>
+        <div>
             <div class="main__item">
-                <p class="item__hint">Введите ФИО</p>
+                <p class="item__hint">Фамилия</p>
+                <input class="item__input input-lastName" type="text">
+            </div>
+            <div class="main__item">
+                <p class="item__hint">Имя</p>
+                <input class="item__input input-firstName" type="text">
+            </div>
+            <div class="main__item">
+                <p class="item__hint">Отчество</p>
+                <input class="item__input input-patronymic" type="text">
+            </div>
+            <div class="main__item">
+                <p class="item__hint">Логин</p>
                 <input class="item__input input-login" type="text">
             </div>
             <div class="main__item">
-                <p class="item__hint">Введите логин или адрес эл.почты</p>
-                <input class="item__input input-password" type="text">
+                <p class="item__hint">Пароль</p>
+                <input class="item__input input-password" type="password">
             </div>
             <div class="main__item">
-                <p class="item__hint">Введите пароль</p>
-                <input class="item__input input-password" type="text">
+                <p class="item__hint">Эл. почта</p>
+                <input class="item__input input-email" type="text">
+            </div>
+            <div class="main__item">
+                <p class="item__hint">Номер телефона</p>
+                <input class="item__input input-number" type="text">
             </div>
             <button class="main__forget">Забыли пароль?</button>
             <button class="main__enter" type="submit">Войти</button>
-        </form>
+        </div>
     </main>
 
     <script src="script.js">

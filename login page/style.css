@@ -29,9 +29,14 @@ body {
     margin-bottom: 158px;
 }
 .main__description {
+    color: #AAA;
     margin-bottom: 34px;
     font-weight: 400;
     font-size: 20px;
+}
+
+.description__active {
+    color: #0D4CD3;
 }
 
 .main__item {

@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", async function() {
         let target = e.target;
         if (!target.closest(".menu") && !target.closest(".header__buttons")) {
             menu.classList.remove("menu-active");
-            console.log("123")
         }
     }) 
     

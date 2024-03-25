@@ -19,9 +19,19 @@ body {
 }
 
 .logo__heading {
-    font-size: 70px;
-    line-height: 84.72px;
-    font-weight: 400;
+    max-width: 200px;
+    font-size: 25px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.logo__heading a {
+    color: #1343EA;
+    text-decoration: none;
+}
+
+.logo__heading a:visited  {
+    color: #1343EA;
 }
 
 .header__navigation {
@@ -295,9 +305,7 @@ body {
     margin: 0 auto;
 }
 
-.none {
-    display: none;
-}
+
 
 .right__btn {
     padding: 16px 98px 30px;
@@ -409,3 +417,56 @@ body {
     font-size: 20px;
     cursor: pointer;
 }
+
+/* Modal */
+.blackout {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    z-index: 2;
+    opacity: 0.5;
+}
+.modal {
+    position: absolute;
+    top: 78px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    padding: 122px 50px 40px ;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 30px;
+    z-index: 3;
+}
+
+.modal__icon {
+    margin-bottom: 32px;
+}
+
+.modal__heading {
+    margin-bottom: 144px;
+    font-weight: 500;
+    font-size: 40px;
+    color: black;
+}
+
+.modal__button {
+    border: 0;
+    background-color: transparent;
+    font-weight: 300;
+    font-size: 25px;
+    color: #1343EA;
+    cursor: pointer;
+}
+
+.none {
+    display: none;
+}
+

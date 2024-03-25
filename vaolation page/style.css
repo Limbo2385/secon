@@ -19,9 +19,19 @@ body {
 }
 
 .logo__heading {
-    font-size: 70px;
-    line-height: 84.72px;
-    font-weight: 400;
+    max-width: 200px;
+    font-size: 25px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.logo__heading a {
+    color: #1343EA;
+    text-decoration: none;
+}
+
+.logo__heading a:visited  {
+    color: #1343EA;
 }
 
 .header__navigation {
@@ -121,6 +131,10 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 23px;
+}
+
+.right__description {
+    width: 395px;
 }
 
 .main__img {

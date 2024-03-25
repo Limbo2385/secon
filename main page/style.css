@@ -18,11 +18,20 @@ body {
 }
 
 .logo__heading {
-    font-size: 70px;
-    line-height: 84.72px;
-    font-weight: 400;
+    max-width: 200px;
+    font-size: 25px;
+    line-height: 24px;
+    font-weight: 700;
 }
 
+.logo__heading a {
+    color: #1343EA;
+    text-decoration: none;
+}
+
+.logo__heading a:visited  {
+    color: #1343EA;
+}
 .header__navigation {
     display: flex;
     align-items: center;
@@ -126,7 +135,7 @@ body {
 }
 
 .left__buttons {
-    max-width: 688px;
+    max-width: 388px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -237,8 +246,8 @@ body {
 .bottom-right__description {
     max-width: 1073px;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 36px;
+    font-size: 23px;
+    line-height: 28px;
 }
 
 .right__img {
